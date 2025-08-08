@@ -65,3 +65,4 @@ split.forEach((group, index) => {
     console.log(`${folder.folder} (${folder.jsCount})`);
   });
 });
+
