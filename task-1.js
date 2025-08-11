@@ -53,7 +53,7 @@ const targetFolders = getAllTargetFolders(rootFolders);
 
 console.log("Папки с .js файлами:");
 for (const folder of targetFolders) {
-  console.log(`• ${folder.folder} (${folder.jsCount})`);
+  console.log(`${folder.folder} (${folder.jsCount})`);
 }
 
 const split = splitFoldersEvenly(targetFolders, N);
@@ -65,4 +65,5 @@ split.forEach((group, index) => {
     console.log(`${folder.folder} (${folder.jsCount})`);
   });
 });
+
 
